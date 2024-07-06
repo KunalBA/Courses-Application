@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #546A76;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+    height: 100vh;
+}
+
+.button{
+    position: relative;
+    padding: 15px 20px;
+    font-size: 1.25rem;
+    background-color: #191913;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.button:hover{
+    letter-spacing: 0.5px;
+}
+
+#Courses{    
+    position: fixed;
+    top: 23%;
+    left: 35%; 
+    background-color: #B4CEB3;
+    width: 450px;
+    padding: 80px 50px 50px;
+    transition: 0.1s;
+    border-radius: 4px;
+    visibility: hidden;
+}
+
+#Courses.active{
+    visibility: visible;
+}
+#Courses h2{
+    text-align: center;
+    color: #3D348B;
+    font-size: 24px;
+    margin: 20px 10px;
+}
+#Courses p{
+    text-align: center;
+    color: #5c4800;
+}
+
+#Courses .box{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input, button{
+    color: black;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    outline: none;
+    font-size: 1rem;
+    font-family: serif;
+}
+
+button{
+    border: none;
+    width: 150px;
+    letter-spacing: 0.1rem;
+    background-color: #88A0A8;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.close{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 20px;
+}
+
